@@ -134,3 +134,9 @@ Documented Milestone 6 progress in this README file.
 
 This milestone focused on securely handling user registration on the backend, including the crucial step of password encryption. This is essential for protecting user data and maintaining security best practices.
 
+## Milestone 7: Backend Login Endpoint and Password Validation 🚀
+
+✅ Login Endpoint Implementation
+Created a backend route for user login.
+Implemented password validation using bcrypt.compare.
+
