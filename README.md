@@ -134,3 +134,104 @@ Documented Milestone 6 progress in this README file.
 
 This milestone focused on securely handling user registration on the backend, including the crucial step of password encryption. This is essential for protecting user data and maintaining security best practices.
 
+## Milestone 7: Backend Login Endpoint and Password Validation 🚀
+
+✅ Login Endpoint Implementation Created a backend route to handle user login. Accepted user credentials (email/username and password) from the frontend.
+
+✅ User Authentication Process Retrieved the corresponding user from the database using the provided email. If the user does not exist, returned an error: "User does not exist." Used bcrypt.compare to compare the entered password with the stored hashed password. If the passwords matched, authenticated the user and proceeded to login. If they did not match, returned an authentication error.
+
+✅ Security Measures Ensured that passwords were stored as hashes using bcrypt to maintain security. Handled potential security vulnerabilities, such as brute-force attacks.
+
+✅ README Update Documented Milestone 7 progress in this README file. This milestone introduced the backend authentication process, enabling users to log in securely by verifying their credentials against stored, encrypted passwords. This is crucial for maintaining data security and user authentication in the application.
+
+## Milestone 8: Product Card Component and Homepage Layout 🚀
+
+✅ Frontend Product Card Component Designed and implemented a reusable Product Card component. Utilized props to dynamically render product details like name, image, and price.
+
+✅ Homepage Layout for Products Created a responsive homepage to display multiple Product Cards. Used Grid/Flexbox for optimal layout and user experience.
+
+## Milestone 9: Product Input Form 🚀
+
+✅ Product Form Implementation
+
+Designed a form for adding product details such as name, price, and description.
+Implemented an option for uploading multiple product images.
+✅ Database Integration
+
+Structured the form to send product data to the backend for storage in MongoDB.
+Ensured proper validation and error handling.
+✅ README Update
+
+Documented Milestone 9 progress in this README file.
+This milestone focused on enabling product input, which is essential for expanding the e-commerce platform by allowing users to add new products dynamically.
+
+## Milestone 10: Product Schema and API Endpoint 🚀
+
+✅ Product Schema Implementation Defined a Product Schema in Mongoose. Implemented validation for fields like name, price, and image URL.
+
+✅ API Endpoint for Adding Products Created a POST endpoint to store product details in MongoDB. Ensured proper validation before saving the data.
+
+## Milestone 11: Dynamic Product Display 🚀
+
+✅ Fetching Product Data Created an endpoint to retrieve all stored products from MongoDB. Implemented API call logic in the frontend to fetch data dynamically.
+
+✅ Displaying Products Passed fetched product data to the Product Card component. Rendered product information dynamically on the homepage.
+
+## Milestone 12: My Products Page 🚀
+
+✅ Filtering Products by User Email
+Created a backend endpoint to retrieve products associated with the logged-in user's email.
+Queried the MongoDB database to fetch only those products matching the user's email.
+
+✅ Fetching Data on the Frontend
+Implemented an API call to request user-specific product data from the backend.
+Stored the retrieved data in the application state for dynamic rendering.
+
+✅ Displaying User's Products
+Passed the fetched data to the Product Card component.
+Rendered the products dynamically on the "My Products" page.
+
+## Milestone 13: Editing Uploaded Products 🚀
+
+✅ Backend Update Endpoint
+Created an endpoint to receive and update product details in MongoDB.
+Implemented logic to find the product by its ID and modify the existing data.
+
+✅ Frontend Edit Button
+Added an Edit button to each product card.
+When clicked, it fetches the product details and auto-fills the form.
+
+✅ Updating Product Data
+Allowed users to modify product details directly within the form.
+Implemented a Save Changes feature to update product details in the database.
+
+## Milestone 14: Deleting Products 🚀
+
+✅ Backend Delete Endpoint
+Created an endpoint to delete a product by its ID from MongoDB.
+Implemented logic to find the product and remove it from the database.
+
+✅ Frontend Delete Button
+Added a Delete button to each product card.
+When clicked, it sends the product ID to the server endpoint for deletion.
+
+✅ Updating UI After Deletion
+Ensured the product is removed from the frontend dynamically after successful deletion.
+Implemented confirmation prompts before deletion for better user experience.
+
+## Milestone 15: Navbar Component 🚀
+
+✅ Creating the Navbar Component
+Designed a Nav component with links to key pages:
+Home
+My Products
+Add Product
+Cart
+
+✅ Making the Navbar Responsive
+Ensured the Navbar adapts to all screen sizes.
+Implemented a mobile-friendly design with a collapsible menu.
+
+✅ Reusing the Navbar Across Pages
+Added the Nav component to all application pages.
+Ensured smooth and intuitive navigation between different sections.
