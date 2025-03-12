@@ -323,3 +323,25 @@ Ensured user data is fetched and displayed dynamically.
 ✅ Testing & Debugging
 Verified API response and data retrieval functionality.
 Ensured smooth UI rendering and error-free data fetching.
+
+## Milestone 21: Address Form Page 🚀
+
+✅ Frontend Address Form
+Created a responsive address input form using HTML, CSS, and JavaScript/React.
+Designed a user-friendly UI with fields for country, city, address1, address2, zip code, and address type.
+
+✅ State Management for Address Data
+Implemented a state to store user input dynamically.
+Ensured real-time updates as users type in the form fields.
+
+✅ Navigation from Profile Page
+Integrated an "Add Address" button in the Profile Page.
+Enabled navigation to the address form page when the button is clicked.
+
+✅ Form Validation & User Experience
+Added basic validation for required fields to ensure accurate input.
+Provided clear error messages and user feedback for invalid inputs.
+
+✅ Testing & Debugging
+Verified smooth form submission and state updates.
+Ensured seamless navigation between Profile Page and Address Form.
