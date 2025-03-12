@@ -345,3 +345,25 @@ Provided clear error messages and user feedback for invalid inputs.
 ✅ Testing & Debugging
 Verified smooth form submission and state updates.
 Ensured seamless navigation between Profile Page and Address Form.
+
+## Milestone 22: Save Address to User Profile 🚀
+
+✅ Backend Endpoint for Address Storage
+Created a POST endpoint to receive address data from the frontend form.
+Validated incoming address details to ensure data integrity.
+
+✅ Storing Address in Database
+Updated the user collection by adding the address to the address array inside the user profile.
+Ensured that multiple addresses can be stored for a single user.
+
+✅ API Integration with Frontend
+Connected the address form submission to the backend API.
+Handled API responses and provided user feedback upon successful address storage.
+
+✅ Error Handling & Security
+Implemented proper authentication to ensure only logged-in users can add addresses.
+Added error handling to manage invalid data or database issues.
+
+✅ Testing & Debugging
+Verified that addresses are successfully stored in the database.
+Ensured seamless data flow from the frontend to the backend.
