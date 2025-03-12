@@ -367,3 +367,29 @@ Added error handling to manage invalid data or database issues.
 ✅ Testing & Debugging
 Verified that addresses are successfully stored in the database.
 Ensured seamless data flow from the frontend to the backend.
+
+## Milestone 23: Select Address & Order Schema 🚀
+
+✅ "Place Order" Button in Cart
+Added a "Place Order" button inside the cart page.
+Configured navigation to the Select Address page when the button is clicked.
+
+✅ Select Address Page Implementation
+Created a Select Address page that displays all saved addresses of the user.
+Implemented an option to select one address as the delivery address.
+
+✅ Backend Endpoint for Fetching Addresses
+Created an API endpoint to retrieve all saved addresses of the logged-in user.
+Ensured secure access to user addresses with proper authentication.
+
+✅ Mongoose Schema for Orders
+Designed and implemented a Mongoose schema for storing order details.
+Included fields like user ID, selected address, ordered items, total price, order status, and timestamps.
+
+✅ API Integration & Testing
+Verified API response and smooth integration with the frontend.
+Tested selecting an address and ensuring data is correctly stored for order placement.
+
+✅ Error Handling & Debugging
+Implemented error handling for missing addresses and invalid order data.
+Ensured seamless user experience when selecting an address and placing an order.
