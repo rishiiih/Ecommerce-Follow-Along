@@ -393,3 +393,29 @@ Tested selecting an address and ensuring data is correctly stored for order plac
 ✅ Error Handling & Debugging
 Implemented error handling for missing addresses and invalid order data.
 Ensured seamless user experience when selecting an address and placing an order.
+
+## Milestone 24: Order Confirmation Page 🚀
+
+✅ Order Confirmation Page UI
+Created a dedicated Order Confirmation page to display order details.
+Designed a clean and user-friendly layout for better user experience.
+
+✅ Displaying Ordered Products
+Listed all the products being ordered with their names, prices, and quantities.
+Ensured a responsive UI for better visibility on all devices.
+
+✅ Showing Selected Delivery Address
+Displayed the user's selected delivery address clearly.
+Included full address details for confirmation before placing the order.
+
+✅ Calculating & Displaying Total Price
+Computed the total value of the cart, including product prices and any applicable charges.
+Ensured real-time updates in case of any modifications before confirming the order.
+
+✅ "Place Order" Button Implementation
+Added a "Place Order" button at the bottom of the page.
+Ensured smooth transition to the next step in the order process when clicked.
+
+✅ Error Handling & User Experience Enhancements
+Implemented validation to prevent proceeding without a selected address.
+Handled edge cases like empty cart or missing address selection gracefully.
