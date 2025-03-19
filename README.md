@@ -419,3 +419,21 @@ Ensured smooth transition to the next step in the order process when clicked.
 ✅ Error Handling & User Experience Enhancements
 Implemented validation to prevent proceeding without a selected address.
 Handled edge cases like empty cart or missing address selection gracefully.
+
+## Milestone 25: Backend Endpoint for Placing Orders 🚀
+
+✅ Creating the Place Order Endpoint
+Developed a backend endpoint to handle order placement.
+The endpoint receives products, user details, and address information.
+
+✅ Retrieving User ID from Email
+Extracted the user’s email from the request.
+Used the email to retrieve the corresponding _id from the database.
+
+✅ Storing Orders in MongoDB
+For each product in the order, created a separate order entry with the same address.
+Used the existing order schema to store order details in the MongoDB order collection.
+
+✅ Ensuring Data Integrity & Validation
+Implemented validation checks for missing user details, products, or address information.
+Ensured each order is successfully stored before responding to the client.
