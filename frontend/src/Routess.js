@@ -10,6 +10,7 @@ import Profile from "./pages/profile.jsx";
 import CreateAddress from "./pages/createAddress.jsx";
 import SelectAddress from "./pages/selectAddress.jsx";
 import OrderConfirmation from "./pages/OrderConfirmation.jsx";
+import MyOrdersPage from "./pages/myOrders.jsx";
 export
 {
     LoginPage,
@@ -23,6 +24,7 @@ export
     Profile,
     CreateAddress,
     SelectAddress,
-    OrderConfirmation
+    OrderConfirmation,
+    MyOrdersPage
 
 }

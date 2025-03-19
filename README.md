@@ -455,3 +455,25 @@ Sent the retrieved orders as a response to the client.
 ✅ Ensuring Data Integrity & Validation
 Implemented validation checks to ensure the user exists.
 Handled cases where no orders were found gracefully.
+
+## Milestone 27: My Orders Page 🚀
+
+✅ Creating the My Orders Page
+Developed a frontend page to display all orders placed by the user.
+Designed a clean and user-friendly interface for better readability.
+
+✅ Fetching Orders from Backend
+Sent a GET request to the /my-orders endpoint created in the previous milestone.
+Passed the user’s email to retrieve all associated orders.
+
+✅ Displaying User Orders
+Listed all the user’s orders with relevant details like product name, price, quantity, and status.
+Ensured a responsive UI for better visibility on all devices.
+
+✅ Adding My Orders Page to Navbar
+Integrated the My Orders page into the navigation bar for easy access.
+Improved user experience with smooth navigation.
+
+✅ Ensuring Data Integrity & Error Handling
+Implemented loading states while fetching orders.
+Handled cases where no orders were found or API calls failed.
