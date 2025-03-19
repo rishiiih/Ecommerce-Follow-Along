@@ -437,3 +437,21 @@ Used the existing order schema to store order details in the MongoDB order colle
 ✅ Ensuring Data Integrity & Validation
 Implemented validation checks for missing user details, products, or address information.
 Ensured each order is successfully stored before responding to the client.
+
+## Milestone 26: Backend Endpoint for Fetching User Orders 🚀
+
+✅ Creating the Get Orders Endpoint
+Developed a backend endpoint to retrieve all orders for a specific user.
+The endpoint receives the user’s email as input.
+
+✅ Retrieving User ID from Email
+Extracted the user’s email from the request.
+Used the email to retrieve the corresponding _id from the database.
+
+✅ Fetching User Orders from MongoDB
+Queried the database using the user’s _id to retrieve all associated orders.
+Sent the retrieved orders as a response to the client.
+
+✅ Ensuring Data Integrity & Validation
+Implemented validation checks to ensure the user exists.
+Handled cases where no orders were found gracefully.
