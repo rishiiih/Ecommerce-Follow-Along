@@ -477,3 +477,21 @@ Improved user experience with smooth navigation.
 ✅ Ensuring Data Integrity & Error Handling
 Implemented loading states while fetching orders.
 Handled cases where no orders were found or API calls failed.
+
+## Milestone 28: Cancel Order Feature 🛑
+
+✅ Adding Cancel Order Button
+Implemented a "Cancel Order" button for each order on the My Orders page.
+Ensured that the button is only visible for active orders (not for canceled ones).
+
+✅ Creating Backend Endpoint for Order Cancellation
+Developed an API endpoint to handle order cancellation requests.
+The endpoint receives the order-id, retrieves the order, updates its status to canceled, and saves the changes.
+
+✅ Updating Order Status in Database
+Integrated backend logic to modify the order status in the database.
+Ensured that canceled orders are no longer modifiable.
+
+✅ Enhancing User Experience
+Improved UI to reflect real-time order status updates.
+Disabled/hid the cancel button for orders that have already been canceled.
