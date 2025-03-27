@@ -495,3 +495,18 @@ Ensured that canceled orders are no longer modifiable.
 ✅ Enhancing User Experience
 Improved UI to reflect real-time order status updates.
 Disabled/hid the cancel button for orders that have already been canceled.
+
+## Milestone 29: Integrating PayPal Payment Gateway 💳
+
+✅ Setting Up PayPal Developer Account
+Created a PayPal developer account and accessed the developer dashboard.
+Generated sandbox accounts for testing transactions.
+Retrieved and saved the sandbox User ID and Client ID for integration.
+
+✅ Adding Payment Options to Order Confirmation Page
+Introduced two payment methods: Cash on Delivery (COD) and Online Payment (PayPal).
+Implemented radio buttons for users to select their preferred payment method.
+
+✅ Displaying PayPal Payment Button
+Configured the UI to show PayPal buttons only when "Online Payment" is selected.
+Prepared the page layout for smooth integration in the next milestone.
