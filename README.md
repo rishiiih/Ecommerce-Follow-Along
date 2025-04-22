@@ -542,3 +542,17 @@ userActions.js: Defined a setEmail action to update the email in the global stat
 Installed the react-redux npm package.
 
 Wrapped the App component with the Provider component in index.js and passed the store as a prop to make global state accessible across the app.  
+
+
+## Milestone 32 Progress 🌐
+✅ Added Email to Global State
+Integrated the email input from the login page into the Redux global state for consistent access across the application.
+
+✅ Dispatch in Login Page
+Used the useDispatch hook from Redux in the Login page to dispatch the email entered by the user and store it in the global state using the setEmail action.
+
+✅ Accessed Global Email in All Pages
+Implemented useSelector in all other pages to access the email stored in the global Redux state. This ensures seamless data flow without the need for prop drilling.
+
+✅ Reinforced Understanding of Redux Flow
+This milestone reinforced practical knowledge of using dispatch, actions, and selectors to manage and access global state in a React-Redux application.
