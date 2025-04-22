@@ -556,3 +556,20 @@ Implemented useSelector in all other pages to access the email stored in the glo
 
 ✅ Reinforced Understanding of Redux Flow
 This milestone reinforced practical knowledge of using dispatch, actions, and selectors to manage and access global state in a React-Redux application.
+
+## Milestone 33 Progress 🔐
+
+✅ Installed jsonwebtoken Package
+Installed the jsonwebtoken library using NPM to handle token creation for user authentication.
+
+✅ JWT Token Generation
+Used the jwt.sign() method to create a JWT token containing the user's email and ID as payload. This helps in securely identifying users.
+
+✅ Token Expiry Setup
+Configured the token with a maxAge parameter to set an expiration time, enhancing security by limiting the token’s validity period.
+
+✅ Stored JWT in Cookies
+Stored the generated JWT token inside an HTTP cookie using the response object. This ensures the token is sent with future requests and can be accessed server-side.
+
+✅ Hands-On with Authentication
+This milestone deepened understanding of token-based authentication and secure cookie storage, which are critical for building secure, authenticated applications.
