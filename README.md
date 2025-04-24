@@ -573,3 +573,22 @@ Stored the generated JWT token inside an HTTP cookie using the response object. 
 
 ✅ Hands-On with Authentication
 This milestone deepened understanding of token-based authentication and secure cookie storage, which are critical for building secure, authenticated applications.
+
+## Milestone 34 Progress ✅
+
+✅ Extracted JWT Token from Cookies  
+Used the `req.cookies` object in Express to extract the JWT token sent by the client inside HTTP cookies.
+
+✅ Middleware for Token Validation  
+Created a custom middleware function that uses `jwt.verify()` to validate the token. This helps ensure that only authenticated users can access protected routes.
+
+✅ Protected Routes Setup  
+Applied the middleware to specific routes and pages to prevent unauthorized access. If the token is invalid or missing, the user is redirected or shown an error.
+
+✅ End-to-End Token Verification  
+Successfully completed the cycle of authentication: generate → store → send → verify → protect! 🔄
+
+✅ Strengthened Authentication Flow  
+This milestone enhances the security of your app by making sure that every page and route can only be accessed by logged-in users with valid tokens.
+
+🛠️ This milestone helped reinforce the importance of secure user sessions and request validation in modern web applications.
