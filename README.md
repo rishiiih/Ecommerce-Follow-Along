@@ -592,3 +592,21 @@ Successfully completed the cycle of authentication: generate → store → send 
 This milestone enhances the security of your app by making sure that every page and route can only be accessed by logged-in users with valid tokens.
 
 🛠️ This milestone helped reinforce the importance of secure user sessions and request validation in modern web applications.
+
+## Milestone 35 Progress ✅
+
+✅ Backend Deployment
+Deployed the backend server using a deployment service like Render, Railway, or Cyclic. Ensured that the server is publicly accessible and all APIs are working correctly.
+
+✅ Connected Frontend to Deployed Backend
+Replaced all localhost URLs in the frontend code with the deployed backend URL to ensure proper communication between frontend and backend in production.
+
+✅ Frontend Deployment
+Deployed the frontend application using a service like Netlify or Vercel. Verified that the UI is accessible, loads correctly, and connects to the backend APIs without issues.
+
+✅ End-to-End Integration Testing
+Tested the complete application flow from frontend to backend. Confirmed that all major features like login, data fetch, and user actions work smoothly in the deployed version.
+
+✅ Final Deployment Links Ready
+Both frontend and backend are now live! The complete website is fully functional and ready to be shared with others. 🌐
+
